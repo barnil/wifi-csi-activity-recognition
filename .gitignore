@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# ESP-IDF build files
+**/build/
+**/sdkconfig.old
+**/sdkconfig.bak
+
+# IDE / editor
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS/editor backups
+*~
